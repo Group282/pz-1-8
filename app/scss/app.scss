@@ -1,0 +1,189 @@
+@import "variables";
+@import "reset";
+@import "media-query";
+body{
+  font: {
+    family: sans-serif;
+  };
+}
+a{
+  text-decoration: none;
+  color: var(--black-color);
+}
+#main_logo{
+  color: var(--grey-color);
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+  background: var(--black-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  #hd{
+    color:var(--black-color);
+    border: 7px solid var(--grey-color);
+    border-radius: 50%;
+    text-align: center;
+    background: var(--grey-color);
+    overflow: hidden;
+  }
+}
+
+#horizontal_navigation{
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  #h_list{
+    justify-self: start;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 20px;
+  }
+  li{
+    display: inline;
+  }
+  li:nth-child(-n+4){
+    font-weight: bold;
+  }
+  #search{
+    margin: auto;
+    img{
+      width: 25px;
+      height: 25px;
+    }
+    input{
+      width: 200px;
+      height: 25px;
+      border: none;
+    }
+  }
+}
+
+#blockbaster{
+  display: flex;
+  justify-content: space-around;
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  height: 200px;
+  background-color: rgba(78,78,78,0.35);
+  text-align: center;
+  div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+  }
+  div:nth-child(1){
+    background-image: url("/app/img/dc.jpg");
+  }
+  div:nth-child(2){
+    background-image: url("/app/img/marvel1.jpeg");
+  }
+  span{
+    display: inline-block;
+    padding-top: 75px;
+  }
+  a{
+    color: var(--white-color);
+  }
+}
+
+#films{
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  #catalog{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    .element{
+      width: 30%;
+      text-align: center;
+ //     .image{
+        img{
+          width: 80%;
+          height: auto;
+        }
+        .category{
+          background: aqua;
+          color: var(--white-color);
+          padding: 5px;
+          display: block;
+          width: 80%;
+          margin-right: auto;
+          margin-left: auto;
+        }
+ //     }
+      .film_name{
+        font-weight: bolder;
+        display: block;
+        a{
+          color: rgba(39,38,154,0.79);
+        }
+      }
+      .description{
+        display: block;
+        color: var(--grey-color);
+      }
+    }
+  }
+  #vertical_navigation{
+    width: 30%;
+    margin-right: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    li{
+      display: flex;
+      border-bottom: 1px solid var(--grey-color);
+      justify-content: space-between;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      #head_v_list{
+        background: #7e7e7e;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        color: var(--white-color);
+        #date{
+          font-weight: bolder;
+        }
+        #close{
+          text-decoration: underline;
+          &:hover{
+            cursor: pointer;
+          }
+        }
+      }
+      div{
+        .serial_name{
+          font-weight: bolder;
+        }
+        .series{
+          display: block;
+        }
+        .translation{
+          display: block;
+          color: var(--grey-color);
+        }
+      }
+
+    }
+
+  }
+}
+
+
+
+/*
+@mixin colorizing($value){
+if($value=="Фильм"){
+  background: aqua;
+}@else if($value=="Аниме"){
+  background: red;
+}@else {
+  background: gray;
+}
+}*/
