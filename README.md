@@ -12,7 +12,7 @@ All files of result project must be added as *pull request* to
 User side of page should look like this:
 ![img](https://user-images.githubusercontent.com/10829855/139442237-dcf9a55b-21a8-42a1-bb74-0afcb11e2965.png)
 
-#Project Structure
+##Project Structure
 ```
 ├── app
 │   ├── css
@@ -30,3 +30,11 @@ User side of page should look like this:
 └──package.json
  
 ```
+
+##Acceptance criteries
+
+Тo get a positive score for a practical lesson follow steps below:
+
+* design in accordance with the above design
+* identical file structure
+* presence on github as pull request for repository in link higher
