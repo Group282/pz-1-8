@@ -10,4 +10,23 @@ All files of result project must be added as *pull request* to
 [GitHub](https://github.com/Group282/pz-1-8).
 
 User side of page should look like this:
-![img.png](app/img/img.png)
+![img](https://user-images.githubusercontent.com/10829855/139442237-dcf9a55b-21a8-42a1-bb74-0afcb11e2965.png)
+
+#Project Structure
+```
+├── app
+│   ├── css
+│   ├── fonts
+│   ├── img
+│   ├── js
+│   ├── libs
+│   ├── scss
+│   └──  index.html 
+├──.editorconfig
+├──.gitignore
+├──.CHANGELOG.md
+├──.gulpfile.js
+├──README.md
+└──package.json
+ 
+```
