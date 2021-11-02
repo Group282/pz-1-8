@@ -1,6 +1,4 @@
-#HD REZKA web-site
-
-****
+# HD REZKA web-site
 
 In the presentation of current practice lesson you have example of some web-page.
 It is the main page of **HD REZKA** web-site. During the lesson you must develop the same web page.
@@ -12,7 +10,8 @@ All files of result project must be added as *pull request* to
 User side of page should look like this:
 ![img](https://user-images.githubusercontent.com/10829855/139442237-dcf9a55b-21a8-42a1-bb74-0afcb11e2965.png)
 
-##Project Structure
+## Project Structure
+
 ```
 ├── app
 │   ├── css
@@ -31,7 +30,7 @@ User side of page should look like this:
  
 ```
 
-##Acceptance criteries
+## Acceptance criteries
 
 Тo get a positive score for a practical lesson follow steps below:
 
