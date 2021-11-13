@@ -1,0 +1,234 @@
+@import "variables";
+@import "reset";
+@import "media-query";
+body{
+  font: {
+    family: sans-serif;
+  };
+}
+
+a{
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+#gorshkov-top_logo{
+  color: var(--grey-color);
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+  background: var(--black-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  #gorshkov-top_logo_hdStyle{
+    color:var(--black-color);
+    border: 7px solid var(--grey-color);
+    border-radius: 50%;
+    text-align: center;
+    background: var(--grey-color);
+    overflow: hidden;
+  }
+}
+
+#gorshkov-horizontal_navigation{
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  #gorshkov-horizontal_navigation_h_list{
+    justify-self: start;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 80px;
+
+  }
+  li{
+    display: inline;
+  }
+  li:nth-child(-n+4){
+    font-weight: bold;
+
+  }
+
+  li:nth-child(-n+7){
+    margin: 0 10px;
+  }
+  #search{
+    margin: auto;
+    img{
+      width: 25px;
+      height: 25px;
+    }
+    input{
+      width: 200px;
+      height: 25px;
+      border: none;
+    }
+  }
+}
+
+
+#gorshkov-films{
+  display: flex;
+  justify-content: space-around;
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  height: 200px;
+  background-color: rgba(78,78,78,0.35);
+  text-align: center;
+
+
+  div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+  }
+  div:nth-child(1){
+    background-image: url(../img/dc.jpg);
+  }
+  div:nth-child(2){
+    background-image: url(../img/marvel1.jpeg);
+
+  }
+
+  span{
+    display: inline-block;
+    padding-top: 75px;
+  }
+  a{
+    color: var(--white-color);
+  }
+}
+
+
+#gorshkov-footer{
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+
+  #gorshkov-footer_catalog{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+
+    .element:nth-child(1) {
+      width: 30%;
+      text-align: center;
+
+      div{
+        background-image: url(../img/enemy.jpg);
+
+        .category{
+          background: blue;
+          color: var(--white-color);
+        }
+      }
+    }
+
+    .element:nth-child(2) {
+      width: 30%;
+      text-align: center;
+
+      div{
+        background-image: url(../img/enemy1.jpg);
+
+        .category{
+          background: gray;
+          color: var(--white-color);
+        }
+      }
+    }
+
+    .element:nth-child(3) {
+      width: 30%;
+      text-align: center;
+
+      div{
+        background-image: url(../img/enemy2.jpg);
+
+        .category{
+          background: red;
+          color: var(--white-color);
+
+        }
+      }
+    }
+
+    div{
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 80%;
+    }
+
+    .category{
+      padding: 5px;
+      display: block;
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+
+
+  }
+
+  .film_name{
+    font-weight: bolder;
+    display: block;
+    a{
+      color: rgba(39,38,154,0.79);
+    }
+  }
+  .description{
+    display: block;
+    color: var(--grey-color);
+  }
+
+  #gorshkov-vertical_navigation{
+    width: 30%;
+    margin-right: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    li{
+      display: flex;
+      border-bottom: 1px solid var(--grey-color);
+      justify-content: space-between;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      #head_v_list{
+        background: #7e7e7e;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        color: var(--white-color);
+        #date{
+          font-weight: bolder;
+        }
+        #close{
+          text-decoration: underline;
+          &:hover{
+            cursor: pointer;
+          }
+        }
+      }
+      div{
+        .serial_name{
+          font-weight: bolder;
+        }
+        .series{
+          display: block;
+        }
+        .translation{
+          display: block;
+          color: var(--grey-color);
+        }
+      }
+
+    }
+
+  }
+}
