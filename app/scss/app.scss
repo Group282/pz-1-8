@@ -12,7 +12,7 @@ a{
   color: var(--black-color);
 }
 
-#gorshkov_top-logo{
+#gorshkov_top_logo{
   color: var(--grey-color);
   font-size: 2em;
   font-weight: bolder;
@@ -20,7 +20,7 @@ a{
   background: var(--black-color);
   padding-top: 10px;
   padding-bottom: 10px;
-  #gorshkov_top-logo_hdStyle{
+  #gorshkov_top_logo_hdStyle{
     color:var(--black-color);
     border: 7px solid var(--grey-color);
     border-radius: 50%;
@@ -30,12 +30,12 @@ a{
   }
 }
 
-#gorshkov_horizontal-navigation{
+#gorshkov_horizontal_navigation{
   display: flex;
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  #gorshkov_horizontal-navigation_h-list{
+  #gorshkov_horizontal_navigation_h_list{
     justify-self: start;
     display: flex;
     justify-content: space-around;
@@ -108,7 +108,7 @@ a{
   width: 100%;
   padding-top: 30px;
 
-  #gorshkov_footer-catalog{
+  #gorshkov_footer_catalog{
     display: flex;
     justify-content: space-around;
     width: 70%;
@@ -121,7 +121,7 @@ a{
         background-image: url(../img/enemy.jpg);
 
         .category{
-          background: blue;
+          background: var(--blue-color-background);
           color: var(--white-color);
         }
       }
@@ -135,7 +135,7 @@ a{
         background-image: url(../img/enemy1.jpg);
 
         .category{
-          background: gray;
+          background:  var(--gray-color-background);
           color: var(--white-color);
         }
       }
@@ -149,7 +149,7 @@ a{
         background-image: url(../img/enemy2.jpg);
 
         .category{
-          background: red;
+          background: var(--red-color-background);
           color: var(--white-color);
 
         }
@@ -177,16 +177,14 @@ a{
   .film_name{
     font-weight: bolder;
     display: block;
-    a{
-      color: rgba(39,38,154,0.79);
-    }
+
   }
   .description{
     display: block;
     color: var(--grey-color);
   }
 
-  #gorshkov-vertical-navigation{
+  #gorshkov_vertical_navigation{
     width: 30%;
     margin-right: 30px;
     padding-right: 10px;
@@ -198,7 +196,7 @@ a{
       padding-top: 5px;
       padding-bottom: 5px;
       #head_v_list{
-        background: #7e7e7e;
+        background:var(--grey-color);
         display: flex;
         justify-content: space-between;
         padding-top: 10px;
