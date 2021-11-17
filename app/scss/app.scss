@@ -12,7 +12,7 @@ a{
   color: var(--black-color);
 }
 
-#gorshkov-top_logo{
+#gorshkov_top-logo{
   color: var(--grey-color);
   font-size: 2em;
   font-weight: bolder;
@@ -20,7 +20,7 @@ a{
   background: var(--black-color);
   padding-top: 10px;
   padding-bottom: 10px;
-  #gorshkov-top_logo_hdStyle{
+  #gorshkov_top-logo_hdStyle{
     color:var(--black-color);
     border: 7px solid var(--grey-color);
     border-radius: 50%;
@@ -30,12 +30,12 @@ a{
   }
 }
 
-#gorshkov-horizontal_navigation{
+#gorshkov_horizontal-navigation{
   display: flex;
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  #gorshkov-horizontal_navigation_h_list{
+  #gorshkov_horizontal-navigation_h-list{
     justify-self: start;
     display: flex;
     justify-content: space-around;
@@ -69,7 +69,7 @@ a{
 }
 
 
-#gorshkov-films{
+#gorshkov_films{
   display: flex;
   justify-content: space-around;
   font-weight: bolder;
@@ -103,12 +103,12 @@ a{
 }
 
 
-#gorshkov-footer{
+#gorshkov_footer{
   display: flex;
   width: 100%;
   padding-top: 30px;
 
-  #gorshkov-footer_catalog{
+  #gorshkov_footer-catalog{
     display: flex;
     justify-content: space-around;
     width: 70%;
@@ -186,7 +186,7 @@ a{
     color: var(--grey-color);
   }
 
-  #gorshkov-vertical_navigation{
+  #gorshkov-vertical-navigation{
     width: 30%;
     margin-right: 30px;
     padding-right: 10px;
