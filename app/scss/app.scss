@@ -13,62 +13,52 @@ a{
 }
 
 #gorshkov_top_logo{
-  color:  $grey-color;
+  color: $grey-color;
   font-size: 2em;
   font-weight: bolder;
   text-align: center;
   background: $black-color;
   padding-top: 10px;
   padding-bottom: 10px;
-  #gorshkov_top_logo_hdrezka{
+
+  #gorshkov_top_logo_hdStyle{
     color:$black-color;
-    border: 7px solid  $grey-color;
+    border: 7px solid $grey-color;
     border-radius: 50%;
     text-align: center;
-    background:  $grey-color;
+    background: $grey-color;
     overflow: hidden;
   }
 }
-
 #gorshkov_horizontal_navigation{
   display: flex;
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
+  align-items: center;
+
   #gorshkov_horizontal_navigation_h_list{
     justify-self: start;
-    display: flex;
     justify-content: space-around;
     width: 50%;
     margin-left: 80px;
-
   }
   li{
     display: inline;
   }
   li:nth-child(-n+4){
     font-weight: bold;
-
   }
-
   li:nth-child(-n+7){
     margin: 0 10px;
   }
   #search{
-    margin: auto;
-    img{
-      width: 25px;
-      height: 25px;
-    }
-    input{
-      width: 200px;
-      height: 25px;
-      border: none;
-    }
+    width: 200px;
+    height: 25px;
+    border: none;
+
   }
 }
-
-
 #gorshkov_films{
   display: flex;
   justify-content: space-around;
@@ -78,8 +68,6 @@ a{
   height: 200px;
   background-color: rgba(78,78,78,0.35);
   text-align: center;
-
-
   div{
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,9 +78,7 @@ a{
   }
   div:nth-child(2){
     background-image: url(../img/marvel1.jpeg);
-
   }
-
   span{
     display: inline-block;
     padding-top: 75px;
@@ -102,21 +88,17 @@ a{
   }
 }
 
-
 #gorshkov_footer{
   display: flex;
   width: 100%;
   padding-top: 30px;
-
   #gorshkov_footer_catalog{
     display: flex;
     justify-content: space-around;
     width: 70%;
-
     .element:nth-child(1) {
       width: 30%;
       text-align: center;
-
       div{
         background-image: url(../img/enemy.jpg);
 
@@ -126,11 +108,9 @@ a{
         }
       }
     }
-
     .element:nth-child(2) {
       width: 30%;
       text-align: center;
-
       div{
         background-image: url(../img/enemy1.jpg);
 
@@ -140,11 +120,9 @@ a{
         }
       }
     }
-
     .element:nth-child(3) {
       width: 30%;
       text-align: center;
-
       div{
         background-image: url(../img/enemy2.jpg);
 
@@ -155,13 +133,11 @@ a{
         }
       }
     }
-
     div{
       background-repeat: no-repeat;
       background-size: cover;
       height: 80%;
     }
-
     .category{
       padding: 5px;
       display: block;
@@ -169,19 +145,14 @@ a{
       margin-right: auto;
       margin-left: auto;
     }
-
-
-
   }
-
   .film_name{
     font-weight: bolder;
     display: block;
-
   }
   .description{
     display: block;
-    color:  $grey-color;
+    color: $grey-color;
   }
 
   #gorshkov_vertical_navigation{
@@ -191,12 +162,12 @@ a{
     padding-left: 10px;
     li{
       display: flex;
-      border-bottom: 1px solid  $grey-color;
+      border-bottom: 1px solid $grey-color;
       justify-content: space-between;
       padding-top: 5px;
       padding-bottom: 5px;
       #head_v_list{
-        background: $grey-color;
+        background:$grey-color;
         display: flex;
         justify-content: space-between;
         padding-top: 10px;
@@ -206,20 +177,8 @@ a{
         #date{
           font-weight: bolder;
         }
-        #close{
-          text-decoration: underline;
-          &:hover{
-            cursor: pointer;
-          }
-        }
+        a{
       }
-      div{
-        .serial_name{
-          font-weight: bolder;
-        }
-        .series{
-          display: block;
-        }
         .translation{
           display: block;
           color: $grey-color;
@@ -227,6 +186,5 @@ a{
       }
 
     }
-
   }
 }
