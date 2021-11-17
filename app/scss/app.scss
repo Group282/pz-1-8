@@ -9,23 +9,23 @@ body{
 
 a{
   text-decoration: none;
-  color: var(--black-color);
+  color: $black-color;
 }
 
 #gorshkov_top_logo{
-  color: var(--grey-color);
+  color:  $grey-color;
   font-size: 2em;
   font-weight: bolder;
   text-align: center;
-  background: var(--black-color);
+  background: $black-color;
   padding-top: 10px;
   padding-bottom: 10px;
-  #gorshkov_top_logo_hdStyle{
-    color:var(--black-color);
-    border: 7px solid var(--grey-color);
+  #gorshkov_top_logo_hdrezka{
+    color:$black-color;
+    border: 7px solid  $grey-color;
     border-radius: 50%;
     text-align: center;
-    background: var(--grey-color);
+    background:  $grey-color;
     overflow: hidden;
   }
 }
@@ -98,7 +98,7 @@ a{
     padding-top: 75px;
   }
   a{
-    color: var(--white-color);
+    color: $white-color;
   }
 }
 
@@ -121,8 +121,8 @@ a{
         background-image: url(../img/enemy.jpg);
 
         .category{
-          background: var(--blue-color-background);
-          color: var(--white-color);
+          background: $blue-color-background;
+          color: $white-color;
         }
       }
     }
@@ -135,8 +135,8 @@ a{
         background-image: url(../img/enemy1.jpg);
 
         .category{
-          background:  var(--gray-color-background);
-          color: var(--white-color);
+          background:  $gray-color-background;
+          color: $white-color;
         }
       }
     }
@@ -149,8 +149,8 @@ a{
         background-image: url(../img/enemy2.jpg);
 
         .category{
-          background: var(--red-color-background);
-          color: var(--white-color);
+          background: $red-color-background;
+          color: $white-color;
 
         }
       }
@@ -181,7 +181,7 @@ a{
   }
   .description{
     display: block;
-    color: var(--grey-color);
+    color:  $grey-color;
   }
 
   #gorshkov_vertical_navigation{
@@ -191,18 +191,18 @@ a{
     padding-left: 10px;
     li{
       display: flex;
-      border-bottom: 1px solid var(--grey-color);
+      border-bottom: 1px solid  $grey-color;
       justify-content: space-between;
       padding-top: 5px;
       padding-bottom: 5px;
       #head_v_list{
-        background:var(--grey-color);
+        background: $grey-color;
         display: flex;
         justify-content: space-between;
         padding-top: 10px;
         padding-bottom: 10px;
         width: 100%;
-        color: var(--white-color);
+        color: $white-color;
         #date{
           font-weight: bolder;
         }
@@ -222,7 +222,7 @@ a{
         }
         .translation{
           display: block;
-          color: var(--grey-color);
+          color: $grey-color;
         }
       }
 
