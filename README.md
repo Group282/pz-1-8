@@ -37,12 +37,3 @@ User side of page should look like this:
 * design in accordance with the above design
 * identical file structure
 * presence on github as pull request for repository in link higher
-
-# Useful links
-* [Gulp для самых маленьких](https://webdesign-master.ru/blog/tools/2016-03-09-gulp-beginners.html).
-* [Browsersync + Gulp.js](https://browsersync.io/docs/gulp#gulp-sass-css).
-* [Gulp 4: The new task execution system](https://fettblog.eu/gulp-4-parallel-and-series/).
-* [BEM](https://ru.bem.info/methodology/).
-* [Getting started with CSS sourcemaps](https://medium.com/@toolmantim/getting-started-with-css-sourcemaps-and-in-browser-sass-editing-b4daab987fb0).
-* [Sourcemaps](https://symfonycasts.com/screencast/gulp/sourcemaps).
-* [Створення і використання Source Maps для css і js в GULP 4](https://denis-creative.com/source-maps-gulp-4/#).
