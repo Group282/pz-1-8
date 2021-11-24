@@ -28,5 +28,8 @@
     "gulp-sass": "^5.0.0",
     "gulp-terser-js": "^5.2.2",
     "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.0"
   }
 }
