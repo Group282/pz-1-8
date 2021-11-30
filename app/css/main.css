@@ -1,0 +1,228 @@
+.comics .comics-dc, .comics .comics-marvel {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.comics .comics-dc a:hover:after, .comics .comics-marvel a:hover:after {
+  opacity: 1;
+}
+.comics .comics-dc img, .comics .comics-marvel img {
+  width: 30vw;
+}
+.comics .comics-dc span, .comics .comics-marvel span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comics .comics-dc span:hover, .comics .comics-marvel span:hover {
+  background: rgba(0, 0, 0, 0);
+}
+
+.comics, .menu form, .menu ul, .menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header {
+  background: black;
+  height: 8vh;
+}
+
+.header-text {
+  background: url("../img/hdrezka-logo.png") no-repeat 0 0;
+  background-size: 100% 200%;
+  display: block;
+  height: 6vh;
+  margin-left: -66px;
+  padding: 0 17px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 98px;
+}
+
+.menu {
+  justify-content: space-between;
+  border: 2px solid black;
+}
+.menu ul {
+  justify-content: space-around;
+  padding: 0;
+  width: 50vw;
+  list-style: none;
+}
+.menu ul .menu-li-bold {
+  font-weight: bold;
+}
+.menu form {
+  border: 0;
+  width: 14%;
+  justify-content: space-around;
+  height: 80%;
+}
+.menu form .search__submit {
+  background: url("../img/icon/search.svg") no-repeat 0 0;
+  border: white;
+}
+.menu form .search__field {
+  width: 180px;
+}
+
+.comics {
+  background: gray;
+  width: 100%;
+  height: 40vh;
+  justify-content: space-around;
+}
+.basic {
+  display: grid;
+  grid-template: "main" 110vh "list"/55% 45%;
+}
+.basic .ul1 {
+  list-style: none;
+  grid-area: main;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.basic .ul1 li {
+  width: 26%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.basic .ul1 li .li {
+  height: 41vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: gray solid 2px;
+}
+.basic .ul1 li .li div {
+  height: 100%;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  flex-wrap: nowrap;
+}
+.basic .ul2 {
+  height: 100%;
+  list-style: none;
+  grid-area: list;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.basic .ul2 .li-first {
+  background: #777777;
+  color: white;
+  height: 5%;
+}
+.basic .ul2 li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.basic .ul2 li hr {
+  width: 100%;
+}
+.basic .ul2 li div {
+  width: 90%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.basic .ul2 li div .span2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.film {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.film1 {
+  background: url("../img/film/DOVOD.jpg") no-repeat center;
+  background-size: 95%;
+}
+.film2 {
+  background: url("../img/film/HOUSE.jpg") no-repeat center;
+  background-size: 95%;
+}
+.film3 {
+  background: url("../img/film/SPYTNUK.jpg") no-repeat center;
+  background-size: 95%;
+}
+.watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4vw;
+  height: 3vw;
+  background: black;
+  opacity: 65%;
+}
+.watch i {
+  background: white;
+  width: 56%;
+  height: 60%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.watch i img {
+  opacity: 65%;
+}
+
+.play {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.play span {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background: gray;
+}
+
+.info {
+  background: white;
+  width: 80%;
+}
+
+.title {
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.title .first {
+  color: cornflowerblue;
+  font: 14px Arial;
+  height: 5%;
+}
+.title .second {
+  color: #777777;
+  font: 10px Arial;
+  height: 5%;
+  min-height: 3000px;
+}
