@@ -1,0 +1,197 @@
+@import "variables";
+@import "reset";
+@import "media-query";
+body{
+  font: {
+    family: sans-serif;
+  };
+}
+
+a{
+  text-decoration: none;
+  color: $black-color;
+}
+
+#mirosh_top_logo{
+  color: $grey-color;
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+  background: $black-color;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  #mirosh_top_logo_hdrezka{
+    color:$black-color;
+    border: 7px solid $grey-color;
+    border-radius: 50%;
+    text-align: center;
+    background: $grey-color;
+    overflow: hidden;
+  }
+}
+#mirosh_horizontal_navigation{
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+
+  #mirosh_horizontal_navigation_h_list{
+    justify-self: start;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 80px;
+  }
+  li{
+    display: inline;
+  }
+  li:nth-child(-n+4){
+    font-weight: bold;
+  }
+  li:nth-child(-n+7){
+    margin: 0 10px;
+  }
+  #search{
+    width: 200px;
+    height: 25px;
+    border: none;
+
+  }
+}
+#mirosh_films{
+  display: flex;
+  justify-content: space-around;
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  height: 200px;
+  background-color: rgba(78,78,78,0.35);
+  text-align: center;
+  div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+  }
+  div:nth-child(1){
+    background-image: url(../img/dc.jpg);
+  }
+  div:nth-child(2){
+    background-image: url(../img/marvel1.jpeg);
+  }
+  span{
+    display: inline-block;
+    padding-top: 75px;
+  }
+  a{
+    color: $white-color;
+  }
+}
+
+#mirosh_footer{
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  #mirosh_footer_catalog{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    .element:nth-child(1) {
+      width: 30%;
+      text-align: center;
+      div{
+        background-image: url(../img/enemy.jpg);
+
+        .category{
+          background: $blue-color-background;
+          color: $white-color;
+        }
+      }
+    }
+    .element:nth-child(2) {
+      width: 30%;
+      text-align: center;
+      div{
+        background-image: url(../img/enemy1.jpg);
+
+        .category{
+          background:  $gray-color-background;
+          color: $white-color;
+        }
+      }
+    }
+    .element:nth-child(3) {
+      width: 30%;
+      text-align: center;
+      div{
+        background-image: url(../img/enemy2.jpg);
+
+        .category{
+          background: $red-color-background;
+          color: $white-color;
+
+        }
+      }
+    }
+    div{
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 80%;
+    }
+    .category{
+      padding: 5px;
+      display: block;
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  .film_name{
+    font-weight: bolder;
+    display: block;
+  }
+  .description{
+    display: block;
+    color: $grey-color;
+  }
+
+  #mirosh_vertical_navigation{
+    width: 30%;
+    margin-right: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    li:not(:first-child) {
+      padding-left: 20px;
+    }
+
+    li{
+      display: flex;
+      border-bottom: 1px solid $grey-color;
+      justify-content: space-between;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+
+      #head_v_list{
+        background:$grey-color;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        color: $white-color;
+        #date{
+          font-weight: bolder;
+        }
+        a{
+      }
+        .translation{
+          display: block;
+          color: $grey-color;
+        }
+      }
+
+    }
+  }
+}
