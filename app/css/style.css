@@ -1,0 +1,641 @@
+*, body {
+    margin: 0;
+    padding: 0
+}
+
+.wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 25px;
+    gap: 20px
+}
+
+.head {
+    width: 100%;
+    height: 40px;
+    background: #000000;
+    color: #777;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.logo {
+    height: 40px;
+    width: 108px
+}
+
+.nav-search-bar {
+    width: 100%;
+    height: 40px;
+    background: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    gap: 15px
+}
+
+.nav-item {
+    height: 20px;
+    padding: 5px;
+    margin: 5px
+}
+
+.nav-item-bold {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none
+}
+
+.nav-item-bold :link, :hover, :visited {
+    color: #000000;
+    text-decoration: none
+}
+
+.nav-item-light {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #000000;
+    text-decoration: none
+}
+
+.nav-item-light :link, :hover, :visited {
+    color: #000000;
+    text-decoration: none
+}
+
+.search-panel {
+    height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    gap: 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%
+}
+
+.search-icon {
+    height: 16px;
+    width: 16px
+}
+
+.search-input {
+    width: 200px;
+    border: none;
+    font-size: 14px;
+    font-weight: lighter
+}
+
+.comics {
+    width: 100%;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #777777
+}
+
+.marvel {
+    background: url("../img/MarvelComics.jpg") no-repeat
+}
+
+.dc {
+    background: url("../img/ComicsDC.jpeg") no-repeat
+}
+
+.comics-item {
+    margin: 30px 25px 20px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.comics-text {
+    text-align: center;
+    padding-top: 150px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.film {
+    margin-top: 30px
+}
+
+.film-img-border {
+    height: 350px;
+    width: 250px;
+    border: 1px solid #777777;
+    border-radius: 3px;
+    padding: 5px
+}
+
+.film-img {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.film1 {
+    background: url("../img/posle2.jpg") no-repeat center;
+    background-size: cover
+}
+
+.film2 {
+    background: url("../img/anime.jpg") no-repeat center;
+    background-size: cover
+}
+
+.film3 {
+    background: url("../img/sudna.jpg") no-repeat center;
+    background-size: cover
+}
+
+.film-img-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.genre {
+    -ms-flex-item-align: end;
+    -ms-grid-row-align: end;
+    align-self: end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    width: 80px;
+    height: 20px;
+    color: #ffffff;
+    border-radius: 0 0 0 5px;
+    gap: 10px
+}
+
+.blue {
+    background: #3fefff
+}
+
+.gray {
+    background: #777777
+}
+
+.red {
+    background: red
+}
+
+.genre-icon {
+    height: 18px;
+    width: 18px;
+    color: #ffffff;
+    fill: #3fefff
+}
+
+.play {
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.play-icon {
+    height: 60px;
+    width: 60px
+}
+
+.status {
+    color: #777777;
+    background: #ffffff;
+    font-size: 13px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 3px;
+    border-radius: 0 3px 0 0
+}
+
+.film-text {
+    margin: 10px 0 0 0;
+    color: #3fefff;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.film-subtext {
+    margin: 5px 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #777777
+}
+
+.head {
+    width: 100%;
+    height: 40px;
+    background: #000000;
+    color: #777777;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.logo {
+    height: 40px;
+    width: 108px
+}
+
+.nav-search-bar {
+    width: 100%;
+    height: 40px;
+    background: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    gap: 15px
+}
+
+.nav-item {
+    height: 20px;
+    padding: 5px;
+    margin: 5px
+}
+
+.nav-item-bold {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none
+}
+
+.nav-item-light {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #000000;
+    text-decoration: none
+}
+
+.nav-item-bold :link, :hover, :visited {
+    color: #000000;
+    text-decoration: none
+}
+
+.nav-item-light :link, :hover, :visited {
+    color: #000000;
+    text-decoration: none
+}
+
+.search-panel {
+    height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    gap: 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%
+}
+
+.search-icon {
+    height: 16px;
+    width: 16px
+}
+
+.search-input {
+    width: 200px;
+    border: none;
+    font-size: 14px;
+    font-weight: lighter
+}
+
+.comics {
+    width: 100%;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #777777
+}
+
+.comics-item {
+    margin: 30px 25px 20px;
+    width: 50%;
+    background-size: cover
+}
+
+.comics-text {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+/*.marvel {*/
+/*    background: url("../img/MarvelComics.jpg") no-repeat*/
+/*}*/
+
+.dc {
+    background: url("../img/ComicsDC.jpeg") no-repeat
+}
+
+.film {
+    margin-top: 30px
+}
+
+.film-img-border {
+    height: 350px;
+    width: 250px;
+    border: 1px solid #777777;
+    border-radius: 3px;
+    padding: 5px
+}
+
+.film-img {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.film-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.film1 {
+    background: url("../img/posle2.jpg");
+    background-size: cover
+}
+
+.film2 {
+    background: url("../img/anime.jpg");
+    background-size: cover
+}
+
+.film3 {
+    background: url("../img/sudna.jpg");
+    background-size: cover
+}
+
+.film-text {
+    margin: 10px 0 0 0;
+    color: #3fefff;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.film-subtext {
+    margin: 5px 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #777777
+}
+
+.genre {
+    -ms-flex-item-align: end;
+    -ms-grid-row-align: end;
+    align-self: end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    width: 80px;
+    height: 20px;
+    color: #ffffff;
+    border-radius: 0 0 0 5px;
+    gap: 10px
+}
+
+.genre-icon {
+    height: 18px;
+    width: 18px;
+    color: #ffffff;
+    fill: #3fefff
+}
+
+.blue {
+    background: #3fefff
+}
+
+.gray {
+    background: #777777
+}
+
+.red {
+    background: red
+}
+
+.play {
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.play-icon {
+    height: 60px;
+    width: 60px
+}
+
+.status {
+    color: #777777;
+    background: #ffffff;
+    font-size: 13px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 3px;
+    border-radius: 0 3px 0 0
+}
+
+.schedule {
+    width: 100%;
+    margin: 15px 0 0 0
+}
+
+.schedule-head {
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 20px;
+    background: #777777
+}
+
+.schedule-head-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff
+}
+
+.schedule-head-subtext {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff
+}
+
+.schedule-item {
+    height: 40px;
+    padding: 0 30px;
+    border-bottom: 1px solid #777777;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 5px
+}
+
+.left-text {
+    font-size: 18px;
+    font-weight: bold
+}
+
+.left-subtext {
+    font-size: 15px;
+    font-weight: lighter;
+    color: #777777
+}
+
+.right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.right-text {
+    font-size: 15px;
+    font-weight: bold
+}
+
+.right-subtext {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #777777
+}
