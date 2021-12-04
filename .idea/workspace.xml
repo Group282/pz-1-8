@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddd7a09f-213f-4014-88b4-75d8ffcb31c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/img/film/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/film/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/film/6867.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/film/Hacksaw_Ridge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/film/appleseed1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/film/evangilion.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/variables.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +15,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="21mGGx1IHCaqyL8FaHo09x5itzs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -63,6 +62,7 @@
       <workItem from="1638538787076" duration="313000" />
       <workItem from="1638539325511" duration="9000" />
       <workItem from="1638617419887" duration="2564000" />
+      <workItem from="1638639521270" duration="1158000" />
     </task>
     <servers />
   </component>
