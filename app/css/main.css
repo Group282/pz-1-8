@@ -60,7 +60,7 @@
   width: 50vw;
   list-style: none;
 }
-.anlife-menu ul .virsta-menu-li-bold {
+.anlife-menu ul .anlife-menu-li-bold {
   font-weight: bold;
 }
 .anlife-menu form {
@@ -69,11 +69,11 @@
   justify-content: space-around;
   height: 80%;
 }
-.anlife-menu form .virsta-search__submit {
+.anlife-menu form .anlife-search__submit {
   background: url("../img/icon/search.svg") no-repeat 0 0;
   border: white;
 }
-.anlife-menu form .virsta-search__field {
+.anlife-menu form .anlife-search__field {
   width: 180px;
 }
 
@@ -181,7 +181,30 @@
   background: url("../img/film/Stuck.jpeg") no-repeat center;
   background-size: 95%;
 }
-
+.anlife-film7 {
+  background: url("../img/film/evangilion.jpg") no-repeat center;
+  background-size: 95%;
+}
+.anlife-film8 {
+  background: url("../img/film/appleseed1.jpg") no-repeat center;
+  background-size: 95%;
+}
+.anlife-film9 {
+  background: url("../img/film/1.jpg") no-repeat center;
+  background-size: 95%;
+}
+.anlife-film10 {
+  background: url("../img/film/Hacksaw_Ridge.jpg") no-repeat center;
+  background-size: 95%;
+}
+.anlife-film11 {
+  background: url("../img/film/6867.jpg") no-repeat center;
+  background-size: 95%;
+}
+.anlife-film12 {
+  background: url("../img/film/12.jpg") no-repeat center;
+  background-size: 95%;
+}
 .watch {
   display: flex;
   justify-content: center;
@@ -217,7 +240,8 @@
 }
 
 .info {
-  background: white;
+  color: #000000;
+  background: #e8fcf8;
   width: 80%;
 }
 
