@@ -12,7 +12,7 @@ a{
   color: $black-color;
 }
 
-#rno_top_logo{
+#anlife_top_logo{
   color: $grey-color;
   font-size: 2em;
   font-weight: bolder;
@@ -21,7 +21,7 @@ a{
   padding-top: 10px;
   padding-bottom: 10px;
 
-  #rno_top_logo_hdrezka{
+  #anlife_top_logo_hdrezka{
     color:$black-color;
     border: 7px solid $grey-color;
     border-radius: 50%;
@@ -30,14 +30,14 @@ a{
     overflow: hidden;
   }
 }
-#rno_horizontal_navigation{
+#anlife_horizontal_navigation{
   display: flex;
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
   align-items: center;
 
-  #rno_horizontal_navigation_h_list{
+  #anlife_horizontal_navigation_h_list{
     justify-self: start;
     justify-content: space-around;
     width: 50%;
@@ -59,7 +59,7 @@ a{
 
   }
 }
-#rno_films{
+#anlife_films{
   display: flex;
   justify-content: space-around;
   font-weight: bolder;
@@ -88,11 +88,11 @@ a{
   }
 }
 
-#rno_footer{
+#anlife_footer{
   display: flex;
   width: 100%;
   padding-top: 30px;
-  #rno_footer_catalog{
+  #anlife_footer_catalog{
     display: flex;
     justify-content: space-around;
     width: 70%;
@@ -155,7 +155,7 @@ a{
     color: $grey-color;
   }
 
-  #rno_vertical_navigation{
+  #anlife_vertical_navigation{
     width: 30%;
     margin-right: 30px;
     padding-right: 10px;
