@@ -70,7 +70,7 @@ a {
   color: #000000;
 }
 
-#rno_top_logo {
+#anlife_top_logo {
   color: #7e7e7e;
   font-size: 2em;
   font-weight: bolder;
@@ -79,7 +79,7 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-#rno_top_logo #rno_top_logo_hdrezka {
+#anlife_top_logo #anlife_top_logo_hdrezka {
   color: #000000;
   border: 7px solid #7e7e7e;
   border-radius: 50%;
@@ -88,7 +88,7 @@ a {
   overflow: hidden;
 }
 
-#rno_horizontal_navigation {
+#anlife_horizontal_navigation {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -101,7 +101,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
-#rno_horizontal_navigation #rno_horizontal_navigation_h_list {
+#anlife_horizontal_navigation #anlife_horizontal_navigation_h_list {
   justify-self: start;
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
@@ -109,22 +109,22 @@ a {
   width: 50%;
   margin-left: 80px;
 }
-#rno_horizontal_navigation li {
+#anlife_horizontal_navigation li {
   display: inline;
 }
-#rno_horizontal_navigation li:nth-child(-n+4) {
+#anlife_horizontal_navigation li:nth-child(-n+4) {
   font-weight: bold;
 }
-#rno_horizontal_navigation li:nth-child(-n+7) {
+#anlife_horizontal_navigation li:nth-child(-n+7) {
   margin: 0 10px;
 }
-#rno_horizontal_navigation #search {
+#anlife_horizontal_navigation #search {
   width: 200px;
   height: 25px;
   border: none;
 }
 
-#rno_films {
+#anlife_films {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -139,26 +139,26 @@ a {
   background-color: rgba(78, 78, 78, 0.35);
   text-align: center;
 }
-#rno_films div {
+#anlife_films div {
   background-repeat: no-repeat;
   background-size: cover;
   width: 45%;
 }
-#rno_films div:nth-child(1) {
+#anlife_films div:nth-child(1) {
   background-image: url(../img/dc.jpg);
 }
-#rno_films div:nth-child(2) {
+#anlife_films div:nth-child(2) {
   background-image: url(../img/marvel1.jpeg);
 }
-#rno_films span {
+#anlife_films span {
   display: inline-block;
   padding-top: 75px;
 }
-#rno_films a {
+#anlife_films a {
   color: #FFFFFF;
 }
 
-#rno_footer {
+#anlife_footer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -166,7 +166,7 @@ a {
   width: 100%;
   padding-top: 30px;
 }
-#rno_footer #rno_footer_catalog {
+#anlife_footer #anlife_footer_catalog {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -176,69 +176,69 @@ a {
           justify-content: space-around;
   width: 70%;
 }
-#rno_footer #rno_footer_catalog .element:nth-child(1) {
+#anlife_footer #anlife_footer_catalog .element:nth-child(1) {
   width: 30%;
   text-align: center;
 }
-#rno_footer #rno_footer_catalog .element:nth-child(1) div {
+#anlife_footer #anlife_footer_catalog .element:nth-child(1) div {
   background-image: url(../img/Battle.jpg);
 }
-#rno_footer #rno_footer_catalog .element:nth-child(1) div .category {
+#anlife_footer #anlife_footer_catalog .element:nth-child(1) div .category {
   background: blue;
   color: #FFFFFF;
 }
-#rno_footer #rno_footer_catalog .element:nth-child(2) {
+#anlife_footer #anlife_footer_catalog .element:nth-child(2) {
   width: 30%;
   text-align: center;
 }
-#rno_footer #rno_footer_catalog .element:nth-child(2) div {
+#anlife_footer #anlife_footer_catalog .element:nth-child(2) div {
   background-image: url(../img/Dura.jpg);
 }
-#rno_footer #rno_footer_catalog .element:nth-child(2) div .category {
+#anlife_footer #anlife_footer_catalog .element:nth-child(2) div .category {
   background: gray;
   color: #FFFFFF;
 }
-#rno_footer #rno_footer_catalog .element:nth-child(3) {
+#anlife_footer #anlife_footer_catalog .element:nth-child(3) {
   width: 30%;
   text-align: center;
 }
-#rno_footer #rno_footer_catalog .element:nth-child(3) div {
+#anlife_footer #anlife_footer_catalog .element:nth-child(3) div {
   background-image: url(../img/Stuck.jpeg);
 }
-#rno_footer #rno_footer_catalog .element:nth-child(3) div .category {
+#anlife_footer #anlife_footer_catalog .element:nth-child(3) div .category {
   background: red;
   color: #FFFFFF;
 }
-#rno_footer #rno_footer_catalog div {
+#anlife_footer #anlife_footer_catalog div {
   background-repeat: no-repeat;
   background-size: cover;
   height: 80%;
 }
-#rno_footer #rno_footer_catalog .category {
+#anlife_footer #anlife_footer_catalog .category {
   padding: 5px;
   display: block;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
 }
-#rno_footer .film_name {
+#anlife_footer .film_name {
   font-weight: bolder;
   display: block;
 }
-#rno_footer .description {
+#anlife_footer .description {
   display: block;
   color: #7e7e7e;
 }
-#rno_footer #rno_vertical_navigation {
+#anlife_footer #anlife_vertical_navigation {
   width: 30%;
   margin-right: 30px;
   padding-right: 10px;
   padding-left: 10px;
 }
-#rno_footer #rno_vertical_navigation li:not(:first-child) {
+#anlife_footer #anlife_vertical_navigation li:not(:first-child) {
   padding-left: 20px;
 }
-#rno_footer #rno_vertical_navigation li {
+#anlife_footer #anlife_vertical_navigation li {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -251,7 +251,7 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-#rno_footer #rno_vertical_navigation li #head_v_list {
+#anlife_footer #anlife_vertical_navigation li #head_v_list {
   background: #7e7e7e;
   display: -webkit-box;
   display: -webkit-flex;
@@ -266,10 +266,10 @@ a {
   width: 100%;
   color: #FFFFFF;
 }
-#rno_footer #rno_vertical_navigation li #head_v_list #date {
+#anlife_footer #anlife_vertical_navigation li #head_v_list #date {
   font-weight: bolder;
 }
-#rno_footer #rno_vertical_navigation li #head_v_list .translation {
+#anlife_footer #anlife_vertical_navigation li #head_v_list .translation {
   display: block;
   color: #7e7e7e;
 }
