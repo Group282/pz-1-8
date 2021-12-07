@@ -2,372 +2,225 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HD REZKA</title>
-    <link type="text/css" rel="stylesheet" href="css/variables.css">
-    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
 <body>
-
 <header>
-    <div class="anlife-header">
-        <h2 class="anlife-header-text"></h2>
+    <div id="rno_top_logo">
+        <span id="rno_top_logo_hdrezka">HD</span>
+        <span>REZKA</span>
     </div>
-    <nav class="anlife-menu">
-        <ul>
-            <li class="anlife-menu-li-bold">Фільми</li>
-            <li class="anlife-menu-li-bold">Серіали</li>
-            <li class="anlife-menu-li-bold">Мультфільми</li>
-            <li class="anlife-menu-li-bold">Аніме</li>
-            <li>Новинки</li>
-            <li>Анонси</li>
-            <li>Підборки</li>
+    <div id="rno_horizontal_navigation">
+        <ul id="rno_horizontal_navigation_h_list">
+            <li><a href="#">Фільми</a></li>
+            <li><a href="#">Серіали</a></li>
+            <li><a href="#">Катоги</a></li>
+            <li><a href="#">Аніме</a></li>
+            <li><a href="#">Новини</a></li>
+            <li><a href="#">Анонси</a></li>
+            <li><a href="#">Колекції</a></li>
+          <li></li>
+
         </ul>
-        <form>
-            <input type="button" title="Начать поиск" class="anlife-search__submit">
-            <input type="text" class="anlife-search__field"
-                   onfocus="if(this.value=='Пошук фільмів та серіалів'){this.value=''}"
-                   onblur="if(this.value==''){this.value='Пошук фільмів та серіалів'}"
-                   autocomplete="off" data-default="Пошук фільмів та серіалів" value="Пошук фільмів та серіалів">
-        </form>
-    </nav>
+            <img  src="./img/search-icon.png" alt="">
+            <input id="search"  type="search" value="Пошук">
+    </div>
 </header>
-<div class="anlife-comics">
-    <div class="anlife-comics-marvel">
-        <a>
-            <img src="img/comics/marvel-films-2020.jpg">
-            <span><strong>Фільми по коміксам "Marvel Comics"</strong></span>
-        </a>
+
+<div>
+  <div id="rno_films">
+    <div>
+      <span><a href="#">Фільми по коміксам DC</a></span>
     </div>
-    <div class="anlife-comics-dc">
-        <a>
-            <img src="img/comics/dc-comics-test.jpg">
-            <span>
-            <strong>Фільми по коміксам "DC Comics"</strong>
-            </span>
-        </a>
+    <div>
+      <span><a href="#">Фільми по коміксам Marvel</a></span>
     </div>
-</div>
-<div class="anlife-basic">
-    <ul class="anlife-ul1">
-        <li>
-            <div class="anlife-li anlife-film1">
-                <div>
-                    <span class="play"><span>Фільм <i><img src="img/icon/play.svg"></i></span></span>
-                    <span class="watch"><i><img src="img/icon/watch.svg"></i></span>
-                </div>
-                <span class="info">Вийшов</span>
-            </div>
-            <div class="title">
-                <p class="first">Гуа Дені. Вайолет Евергардер</p>
-                <p class="second">2020, Японія, Аніме ( Драма )</p>
-            </div>
-        </li>
-        <li>
-            <div class="anlife-li anlife-film2">
-                <div>
-                    <span class="play"><span>Фільм <i><img src="img/icon/play.svg"></i></span></span>
-                    <span class="watch"><i><img src="img/icon/watch.svg"></i></span>
-                </div>
-                <span class="info">Вийшов</span>
-            </div>
-            <div class="title">
-                <p class="first">Вгору</p>
-                <p class="second">2012, США, Пригодницький ( Драма )</p>
-            </div>
-        </li>
-        <li>
-            <div class="anlife-li anlife-film3">
-                <div>
-                    <span class="play"><span>Фільм <i><img src="img/icon/play.svg"></i></span></span>
-                    <span class="watch"><i><img src="img/icon/watch.svg"></i></span>
-                </div>
-                <span class="info">Вийшов</span>
-            </div>
-            <div class="title">
-                <p class="first">Валі</p>
-                <p class="second">2008, США, Пригодницький ( Драма )</p>
-            </div>
-        </li>
-        <li>
-            <div class="anlife-li anlife-film4">
-                <div>
-                    <span class="play"><span>Фільм <i><img src="img/icon/play.svg"></i></span></span>
-                    <span class="watch"><i><img src="img/icon/watch.svg"></i></span>
-                </div>
-                <span class="info">Вийшов</span>
-            </div>
-            <div class="title">
-                <p class="first">Месники: Герої завтрашнього дня</p>
-                <p class="second">2012, США, Пригодницький ( Драма )</p>
-            </div>
-        </li>
-        <li>
-            <div class="anlife-li anlife-film5">
-                <div>
-                    <span class="play"><span>Фільм <i><img src="img/icon/play.svg"></i></span></span>
-                    <span class="watch"><i><img src="img/icon/watch.svg"></i></span>
-                </div>
-                <span class="info">Вийшов</span>
-            </div>
-            <div class="title">
-                <p class="first">Чорний яструб</p>
-                <p class="second">2001, США, Бойовик</p>
-            </div>
-        </li>
-        <li>
-            <div class="anlife-li anlife-film6">
-                <div>
-                    <span class="play"><span>Серіал<i><img src="img/icon/play.svg"></i></span></span>
-                    <span class="watch"><i><img src="img/icon/watch.svg"></i></span>
-                </div>
-                <span class="info">Завершений (всі серії)</span>
-            </div>
-            <div class="title">
-                <p class="first">Людина у високому замку</p>
-                <p class="second">2019, США, Драма</p>
-            </div>
-        </li>
+  </div>
+
+  <div id="rno_footer">
+
+    <div id="rno_footer_catalog">
 
 
-        <li>
-            <div class="anlife-li anlife-film7">
-                <div>
-                    <span class="play"><span>Фільм <i><img src="img/icon/play.svg"></i></span></span>
-                    <span class="watch"><i><img src="img/icon/watch.svg"></i></span>
-                </div>
-                <span class="info">Вийшов</span>
-            </div>
-            <div class="title">
-                <p class="first">Івангіліон</p>
-                <p class="second">2021, Японія, Аніме ( Драма )</p>
-            </div>
-        </li>
-        <li>
-            <div class="anlife-li anlife-film8">
-                <div>
-                    <span class="play"><span>Фільм <i><img src="img/icon/play.svg"></i></span></span>
-                    <span class="watch"><i><img src="img/icon/watch.svg"></i></span>
-                </div>
-                <span class="info">Вийшов</span>
-            </div>
-            <div class="title">
-                <p class="first">Яблучнева зірнинка</p>
-                <p class="second">2003, США, Пригодницький ( Драма )</p>
-            </div>
-        </li>
-        <li>
-            <div class="anlife-li anlife-film9">
-                <div>
-                    <span class="play"><span>Серіал <i><img src="img/icon/play.svg"></i></span></span>
-                    <span class="watch"><i><img src="img/icon/watch.svg"></i></span>
-                </div>
-                <span class="info">Всі серіїї (завершений)</span>
-            </div>
-            <div class="title">
-                <p class="first">Чорнобиль</p>
-                <p class="second">2021, США, Документальний</p>
-            </div>
-        </li>
-        <li>
-            <div class="anlife-li anlife-film10">
-                <div>
-                    <span class="play"><span>Фільм <i><img src="img/icon/play.svg"></i></span></span>
-                    <span class="watch"><i><img src="img/icon/watch.svg"></i></span>
-                </div>
-                <span class="info">Вийшов</span>
-            </div>
-            <div class="title">
-                <p class="first">З міркувань совесті</p>
-                <p class="second">2018, США, Художній</p>
-            </div>
-        </li>
-        <li>
-            <div class="anlife-li anlife-film11">
-                <div>
-                    <span class="play"><span>Серіал <i><img src="img/icon/play.svg"></i></span></span>
-                    <span class="watch"><i><img src="img/icon/watch.svg"></i></span>
-                </div>
-                <span class="info">Завершений (всі серії)</span>
-            </div>
-            <div class="title">
-                <p class="first">Історії Хейло</p>
-                <p class="second">2019, США, Пригодницький</p>
-            </div>
-        </li>
-        <li>
-            <div class="anlife-li anlife-film12">
-                <div>
-                    <span class="play"><span>Серіал<i><img src="img/icon/play.svg"></i></span></span>
-                    <span class="watch"><i><img src="img/icon/watch.svg"></i></span>
-                </div>
-                <span class="info">Завершений (всі серії)</span>
-            </div>
-            <div class="title">
-                <p class="first">Пригоди Аватара</p>
-                <p class="second">2012, США, Драма</p>
-            </div>
-        </li>
+      <div class="element">
+        <div >
+          <span class="category">Фільми</span>
+        </div>
+        <span class="film_name"><a href="#">Гуа Дені. Вайолет Евергардер</a></span>
+        <span class="description">2020, Японія, Аніме ( Драма )</span>
+
+      </div>
+
+      <div class="element">
+        <div >
+          <span class="category">Мультфільми</span>
+        </div>
+        <span class="film_name"><a href="#">Вгору</a></span>
+        <span class="description">2012, США, Пригодницький ( Драма )</span>
+      </div>
+
+      <div class="element">
+        <div >
+          <span class="category">Серіали</span>
+        </div>
+        <span class="film_name"><a href="#">Людина у високому замку</a></span>
+        <span class="description">2019, США, Драма</span>
+      </div>
 
 
-
-    </ul>
-    <aside>
-        <ul class="anlife-ul2">
-            <li class="anlife-li-first">
-                <div>
-                    <span><b>3 грудня 2021</b></span>
-                    <span>звернути</span>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <span><b>Гравіті Фолз </b> (2 сезон)</span>
-                    <div class="anlife-span2">
-                        <span><b>24 серія</b> </span>
-                        <span>(LostFilm)</span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-                <div>
-                    <span><b>Тінь Ендера </b> (1 сезон)</span>
-                    <div class="anlife-span2">
-                        <span><b>6 серія</b> </span>
-                        <span>(многоголосий)</span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-                <div>
-                    <span><b>Хто я? </b> (4 курс)</span>
-                    <div class="anlife-span2">
-                        <span><b>312 серія</b> </span>
-                        <span></span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-                <div>
-                    <span><b>Тім Телер або проданий Сміх </b> (1 сезон)</span>
-                    <div class="anlife-span2">
-                        <span><b>18 серія</b> </span>
-                        <span>(Idea film)</span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-                <div>
-                    <span><b>Герад - Падіння Помпей </b> (1 сезон)</span>
-                    <div class="anlife-span2">
-                        <span><b>9 серія</b> </span>
-                        <span>(многоголосний)</span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-                <div>
-                    <span><b>Відступник Акіто </b> (1 сезон)</span>
-                    <div class="anlife-span2">
-                        <span><b>453 серія</b> </span>
-                        <span>(New Studio)</span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-                <div>
-                    <span><b> Сила Юності</b> (1 сезон)</span>
-                    <div class="anlife-span2">
-                        <span><b>127 серія</b> </span>
-                        <span>(Anilibria)</span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-                <div>
-                    <span><b>Боруто </b> (1 сезон)</span>
-                    <div class="anlife-span2">
-                        <span><b>249 серія</b> </span>
-                        <span>(многоголосий)</span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-                <div>
-                    <span><b> Пригоди Хейло</b> (1 сезон)</span>
-                    <div class="anlife-span2">
-                        <span><b>8 серія</b> </span>
-                        <span>(Anilibria)</span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-            <li>
-                <div>
-                    <span><b> Пригоди Тіма Тейлера</b> (2 сезон)</span>
-                    <div class="anlife-span2">
-                        <span><b>18 серія</b> </span>
-                        <span>(Anilibria)</span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-            <li>
-                <div>
-                    <span><b> Останій рубіж</b> (1 сезон)</span>
-                    <div class="anlife-span2">
-                        <span><b>14 серія</b> </span>
-                        <span>(Anilibria)</span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-            <li>
-                <div>
-                    <span><b> Відставний офіцер</b> (2 сезон)</span>
-                    <div class="anlife-span2">
-                        <span><b>22 серія</b> </span>
-                        <span>(Anilibria)</span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-            <li>
-                <div>
-                    <span><b> Комі</b> (1 сезон)</span>
-                    <div class="anlife-span2">
-                        <span><b>9 серія</b> </span>
-                        <span>(Anilibria)</span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-            <li>
-                <div>
-                    <span><b> Альдноа Зеро</b> (1 сезон)</span>
-                    <div class="anlife-span2">
-                        <span><b>13 серія</b> </span>
-                        <span>(Anilibria)</span>
-                    </div>
-                </div>
-                <hr>
-            </li>
-            <li>
-
-        </ul>
-    </aside>
+      </div>
+    <div id="rno_vertical_navigation">
+      <ul>
+        <li>
+          <div id="head_v_list">
+            <span id="date">7 December, 2021</span>
+            <span id="close">Roll up</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Гравіті Фолз</a></span>
+            <span class="season">(2 сезон)</span>
+          </div>
+          <div>
+            <span class="series">24 серія</span>
+            <span class="translation">(LostFilm)</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Тінь Ендера</a></span>
+            <span class="season">(1 сезон)</span>
+          </div>
+          <div>
+            <span class="series">6 серія</span>
+            <span class="translation">(многоголосий)</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Хто я?</a></span>
+            <span class="season">(4 курс)</span>
+          </div>
+          <div>
+            <span class="series">312 серія</span>
+            <span class="translation">(Idea film)</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Тім Телер або проданий Сміх </a></span>
+            <span class="season">(1 сезон)</span>
+          </div>
+          <div>
+            <span class="series">18 серія</span>
+            <span class="translation">(Idea film)</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Герад - Падіння Помпей </a></span>
+            <span class="season">(1 сезон)</span>
+          </div>
+          <div>
+            <span class="series">9 серія</span>
+            <span class="translation">(многоголосний)</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Відступник Акіто</a></span>
+            <span class="season">(1 сезон)</span>
+          </div>
+          <div>
+            <span class="series">453 серія</span>
+            <span class="translation">(New Studio)</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Сила Юності</a></span>
+            <span class="season">(1 сезон)</span>
+          </div>
+          <div>
+            <span class="series">127 серія</span>
+            <span class="translation">(Anilibria)</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Боруто</a></span>
+            <span class="season">(1 сезон)</span>
+          </div>
+          <div>
+            <span class="series">249 серія</span>
+            <span class="translation">(многоголосий)</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Пригоди Хейло</a></span>
+            <span class="season">(1 сезон)</span>
+          </div>
+          <div>
+            <span class="series">8 серія</span>
+            <span class="translation">(Anilibria)</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Пригоди Тіма Тейлера</a></span>
+            <span class="season">(2 сезон)</span>
+          </div>
+          <div>
+            <span class="series">18 серія</span>
+            <span class="translation">(Anilibria)</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Останій рубіж</a></span>
+            <span class="season">(1 сезон)</span>
+          </div>
+          <div>
+            <span class="series">14 серія</span>
+            <span class="translation">(Anilibria)</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Відставний офіцер</a></span>
+            <span class="season">(2 сезон)</span>
+          </div>
+          <div>
+            <span class="series">22 серія</span>
+            <span class="translation">(Anilibria)</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Комі</a></span>
+            <span class="season">(1 сезон)</span>
+          </div>
+          <div>
+            <span class="series">9 серія</span>
+            <span class="translation">(Anilibria)</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="serial_name"><a href="#">Альдноа Зеро</a></span>
+            <span class="season">(1 сезон)</span>
+          </div>
+          <div>
+            <span class="series">13 серія</span>
+            <span class="translation">(Anilibria)</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 </body>
 </html>
