@@ -1,17 +1,18 @@
-# HD REZKA web-site
+# Practical lesson pz-1-8 WEB
+> repository contains base tamplate
 
-In the presentation of current practice lesson you have example of some web-page.
-It is the main page of **HD REZKA** web-site. During the lesson you must develop the same web page.
-The focus of reviewer will be on using **Sass** preprocessing and **Gulp** project builder.
+### Students should create html markups.
 
-All files of result project must be added as *pull request* to
-[GitHub](https://github.com/Group282/pz-1-8).
+### Acceptance criteria
+* Use css media queries
+* Use scss
+* Use scss variables
+* Add sourcemap for scss
 
-User side of page should look like this:
 ![img](https://user-images.githubusercontent.com/10829855/182413759-63dcac8d-3ea7-4f53-99f3-90111823ee00.png)
 
-## Project Structure
-
+# Directory Structure
+Follow this pattern for organization of developed components.
 ```
 ├── app
 │   ├── css
